@@ -1,0 +1,74 @@
+body {
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+#footerp {
+    text-align: center;
+}
+#login {
+    margin: 100px auto;
+    background-color: #ffffff;
+    border: 2px solid silver; 
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 0px 7px 0px #aaaaaa;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#linebottom {
+    border-bottom: 1px solid silver;
+}
+#forgot {
+    color: rgb(24, 119, 242);
+}
+p a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1;
+    margin-top: 5px;
+    border-color: #ccd0d5;
+    margin-bottom: 10px;
+}
+#submit {
+    color: #ffffff;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#account {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 8px;
+    background-color: #42b72a ;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+input:focus {
+    border-color: rgb(24, 119, 242);
+}

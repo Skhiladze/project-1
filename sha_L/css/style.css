@@ -1,0 +1,23 @@
+body {
+    margin: 0 auto;
+    color: rgb(80, 66, 47);
+    background-color: bisque ;
+    width : 70% ;
+    /*
+    border: 5px solid red
+    */
+}
+
+#welc {
+    color: indigo;
+    margin-top: 10px ;
+    border-bottom: 4px solid gray;
+    width: 50%;
+    padding: 15px ;
+}
+.inputclass {
+    color: red;
+    background-color: bisque;
+    border: none;
+    border-bottom: 2px solid red;
+}
